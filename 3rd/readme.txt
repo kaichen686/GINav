@@ -1,0 +1,2 @@
+If you want to use PPK, PPS or PPK/INS mode to process data, please download and install the LAMBDA-3.0.zip file 
+from http://gnss.curtin.edu.au/research/lambda.cfm. Please refer to GINav manual for the installation steps.
