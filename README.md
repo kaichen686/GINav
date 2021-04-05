@@ -39,3 +39,7 @@ Any suggestions, corrections, and comments about GINav are sincerely welcomed an
 Author: Kai Chen <br>
 E-mail: kaichen@cumt.edu.cn <br>
 Address: School of Environment and Geo-informatics, China University of Mining and Technology <br>
+## References <br>
+Verhagen S, Li B, Teunissen PJG (2012) LAMBDA - Matlab implementation, version 3.0. Delft University of Technology and Curtin University <br>
+Groves P 2013 Principles of GNSS, Inertial, and Multisensor Integrated Navigation Systems, 2nd edn (Bostan and London: Artech House)  <br>
+Chao C and Chang G 2021 PPPLib: An open-source software for precise point positioning using GPS, BeiDou, Galileo, GLONASS, and QZSS with multi-frequency observations GPS Solutions. <br>
