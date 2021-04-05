@@ -33,7 +33,7 @@ GINav provides different dataset to evaluate its performance, you can use the co
 ## Mathematical model <br>
 Please refer to the GINav manual. <br>
 ## Acknowledgement <br>
-First of all, I pay tribute to Mr. Tomoji Tkasu, the author of RTKLIB software. I admire him for his selfless open-source spirit and elegant programming. The most functions of GINav are refer to RTKLIB. The software is also referring to the PSINS software of Gongmin Yan from Northwestern Polytechnic University, the PPPLib software of Chao Chen from China University of Mining and Technology, the GAMP software of Feng Zhou from Shangdong University of Science and Technology. In addition, GINav uses the LAMBDA v3.0 toolbox from Curtin University. Thanks to the authors of above software. <br>
+First of all, I pay tribute to Mr. Tomoji Tkasu, the author of RTKLIB software. I admire him for his selfless open-source spirit and elegant programming. The most functions of GINav are refer to RTKLIB. The software is also referring to the PSINS software of Gongmin Yan from Northwestern Polytechnic University, the PPPLib software of Chao Chen from China University of Mining and Technology, the GAMP software of Feng Zhou from Shangdong University of Science and Technology. GINav uses the LAMBDA v3.0 toolbox from Curtin University and some open-source datasets. Thanks to the authors of above software, [Curtin GNSS Research Centre](http://gnss.curtin.edu.au/), and sharer of UrbanNavdataset. Many thanks are due to Steve Hillia from Notional Oceanic and Atmospheric Administration for his detailed suggestions. <br>
 ## Contact author <br>
 Any suggestions, corrections, and comments about GINav are sincerely welcomed and should be sent to: <br>
 Author: Kai Chen <br>
