@@ -1,5 +1,5 @@
 # GINav
-NOTE: The program is still under development, and some bugs may exist in GINav. Comments and suggestions from users are welcome, please send them to the author (kaichen@cumt.edu.cn). If you're interested in the GINav algorithm, you can join the GINav discussion group (`QQ:533185090`) <br>
+NOTE: The program is still under development, and some bugs may exist in GINav. Comments and suggestions from users are welcome, please send them to the author (kaichen@cumt.edu.cn). If you're interested in the GINav algorithm, you can join the GINav discussion group (`QQ:533185090`). In addition, the C language-based GINav will be released on Github in due course. <br>
 
 ## Introduction <br>
 GINav is an open-source software, which focuses on the data processing and analysis of GNSS/INS integrated Navigation system, and can also process multi-constellation and multi-frequency GNSS data. GINav is suitable for in-vehicle situations and is aimed at providing a useful tool for carrying out GNSS/INS-related research. It is a convenient platform for testing new algorithms and experimental functionalities. GINav is developed in MATLAB environment. It provides a user-friendly graphical user interface (GUI) to facilitate users to learn how to use it quickly. A visualization tool, GINavPlot, is provided for solution presentation and error analysis.  <br>
@@ -40,6 +40,7 @@ Author: Kai Chen <br>
 E-mail: kaichen@cumt.edu.cn <br>
 Address: School of Environment and Geo-informatics, China University of Mining and Technology <br>
 ## References <br>
-[1] Verhagen S, Li B, Teunissen PJG (2012) LAMBDA - Matlab implementation, version 3.0. Delft University of Technology and Curtin University <br>
-[2] Groves P 2013 Principles of GNSS, Inertial, and Multisensor Integrated Navigation Systems, 2nd edn (Bostan and London: Artech House)  <br>
-[3] Chao C and Chang G 2021 PPPLib: An open-source software for precise point positioning using GPS, BeiDou, Galileo, GLONASS, and QZSS with multi-frequency observations GPS Solutions. <br>
+[1] Chen K, Chang G, Chen C,et al. 2021 An improved TDCP-GNSS/INS integration scheme considering small cycle slip for low-cost land vehicular applications. Measurement Science and Technology, 2021, 32(5):055006 (13pp) <br>
+[2] Verhagen S, Li B, Teunissen PJG (2012) LAMBDA - Matlab implementation, version 3.0. Delft University of Technology and Curtin University <br>
+[3] Groves P 2013 Principles of GNSS, Inertial, and Multisensor Integrated Navigation Systems, 2nd edn (Bostan and London: Artech House)  <br>
+[4] Chao C and Chang G 2021 PPPLib: An open-source software for precise point positioning using GPS, BeiDou, Galileo, GLONASS, and QZSS with multi-frequency observations GPS Solutions <br>
