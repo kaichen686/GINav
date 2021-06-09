@@ -9,6 +9,7 @@ The main features of the software are: <br>
 * Support multi-constellation and multi-frequency GNSS data processing <br>
 * Support GNSS/INS loosely coupled (LC) modes, include SPP/INS LC, PPD/INS LC, PPK/INS LC and PPP/INS LC <br>
 * Support GNSS/INS tightly coupled (TC) modes, include SPP/INS TC, PPD/INS TC, PPK/INS TC and PPP/INS TC <br>
+* Support forward/backward smooth (only for C version) <br>
 * INS-aided cycle slip detection and robust estimation for GNSS/INS integration <br>
 * Convenient visualization <br>
 ## Requirements <br>
