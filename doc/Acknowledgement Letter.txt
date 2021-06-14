@@ -3,7 +3,7 @@
 ----------------------------------------------------------------------------------------------------
 
 First of all, I pay tribute to Mr. Tomoji Takasu, the author of RTKLIB software. 
-I admire him for his selfless open-source spirit and elegant programming. The many 
+I admire him for his selfless open-source spirit and elegant programming. Many 
 functions of GINav are derived from the RTKLIB code. If you use these functions that 
 derived from the RTKLIB, please comply with the BSD2 license of  RTKLIB, which can be 
 found in the GINav User Manual. 
