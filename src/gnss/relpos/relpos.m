@@ -9,9 +9,6 @@ function [rtk,stat0]=relpos(rtk,obsr,obsb,nav)
 %output: rtk - rtk control struct
 %        stat0 - state (0:error 1:ok)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2020-2025, by Kai Chen, All rights reserved.
-%28/9/2020
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %relative positioning include PPD, PPK and PPS
 %PPD:post-processing differenced, based on double-differenced PR
 %PPK:post-processing kinematic, based on double-differenced CP and PR

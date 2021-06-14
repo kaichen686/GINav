@@ -1,5 +1,7 @@
 function [sv,stat0]=ephpos(time,teph,sat,nav,iode,sv) %#ok
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc gls
 stat0=1; tt=1e-3; sv1=gls.sv;
 [sys,~]=satsys(sat);

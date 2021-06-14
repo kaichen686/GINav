@@ -1,5 +1,7 @@
 function rtk = detslip_LLI(rtk,obs,i,rcv)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc;
 sat=obs(i).sat;
 

@@ -1,5 +1,7 @@
 function stat=satexclude(sat,var,svh,opt)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc;
 [sys,~]=satsys(sat);
 if svh<0,stat=0;return; end

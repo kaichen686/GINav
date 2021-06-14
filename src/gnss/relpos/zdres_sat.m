@@ -1,5 +1,7 @@
 function zd=zdres_sat(flag,r,obs,nav,azel,dant,opt,rtk,zd) %#ok
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 lam=nav.lam(obs.sat,:); nf=rtk.NF;
 

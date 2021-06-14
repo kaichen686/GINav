@@ -1,5 +1,7 @@
 function [dtdx,dtrp,vart,stat]=model_trop(time,pos,azel,rtk,x,nav) %#ok
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc;
 stat=0;
 trp=zeros(3,1); dtdx=zeros(3,1); ERR_SAAS=0.3;

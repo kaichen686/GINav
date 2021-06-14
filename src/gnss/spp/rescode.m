@@ -1,5 +1,7 @@
 function [v,H,P,vsat,azel,resp,nv,ns]=rescode(iter,obs,nav,sv,x0,opt)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 lam_carr0=glc.CLIGHT/glc.FREQ_GPS_L1;
 nobs=size(obs,1); NSYS=glc.NSYS;

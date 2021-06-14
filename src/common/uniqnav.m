@@ -1,5 +1,7 @@
 function nav=uniqnav(nav)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc;
 
 if nav.n>0
@@ -11,7 +13,7 @@ if nav.ng>0
 end
 
 for i=1:glc.MAXSAT
-    for j=1:glc.MAXFREQ
+    for j=1:glc.NFREQ
         nav.lam(i,j)=satwavelen(i,j,nav);
     end
 end

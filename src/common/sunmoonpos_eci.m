@@ -1,9 +1,10 @@
 function [rsun,rmoon]=sunmoonpos_eci(tut)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 AU=149597870691.0; D2R=pi/180; RE_WGS84=6378137.0;
 ep2000=[2000 1 1 12 0 0];
 
-tmp=timediff(tut,epoch2time(ep2000));
 t=timediff(tut,epoch2time(ep2000))/86400.0/36525.0;
 
 %astronomical parameter

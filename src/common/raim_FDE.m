@@ -3,6 +3,8 @@ function [rtk,sat_,stat]=raim_FDE(rtk,obs,nav,sv,opt,sat_)
 %receiver autonomous integrity monitoring, failure detection and exclution
 %only detect and exclude a faulty satellite
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global gls
 stat=0; rms_max=100; nobs=size(obs,1);
 obs_tmp=repmat(gls.obs_tmp,nobs-1,1);

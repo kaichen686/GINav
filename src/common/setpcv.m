@@ -1,5 +1,7 @@
 function [nav,opt]=setpcv(time,opt,nav,pcvs,pcvr,sta)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc gls
 
 if opt.mode>=glc.PMODE_DGNSS&&opt.mode<=glc.PMODE_STATIC

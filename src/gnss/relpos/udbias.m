@@ -1,5 +1,7 @@
 function rtk=udbias(rtk,obsr,obsb,nav,ind)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc;
 tt=rtk.tt;  nf=rtk.NF; MAXSAT=glc.MAXSAT; NFREQ=glc.NFREQ;
 sat=ind.sat; ns=ind.ns; ir=ind.ir; ib=ind.ib;

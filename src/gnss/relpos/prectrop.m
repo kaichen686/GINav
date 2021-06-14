@@ -1,5 +1,7 @@
 function [trop,dtdx]=prectrop(time,pos,r,azel,rtk,x)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc;
 dtdx=zeros(3,1);
 if r==1,i=rtk.itr;elseif r==2,i=rtk.itb;end

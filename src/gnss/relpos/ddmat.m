@@ -1,5 +1,7 @@
 function [rtk,D,nb]=ddmat(rtk,D)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 nf=rtk.NF; na=rtk.na;nb=0;
 MAXSAT=glc.MAXSAT;

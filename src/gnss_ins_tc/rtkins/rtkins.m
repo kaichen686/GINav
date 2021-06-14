@@ -9,9 +9,6 @@ function [rtk,stat0]=rtkins(rtk,obsr,obsb,navs)
 %output: rtk  - rtk control struct
 %        stat0- state
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2020-2025, by Kai Chen, All rights reserved.
-%8/12/2020
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %This function include PPD/INS TC and PPK/INS TC
 %PPD/INS TC based on double-differenced pseudorange
 %PPK/INS TC based on double-differenced carrier phase and pseudorange

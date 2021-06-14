@@ -1,5 +1,8 @@
 function R=Rxyz(t,flag)
-%Note that the transformation is the opposite of RTKlib
+%Note that the transformation is the opposite of RTKLIB
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if flag==1
     R=[1       0         0;
        0     cos(t)   -sin(t);

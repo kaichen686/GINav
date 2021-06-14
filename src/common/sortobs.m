@@ -1,5 +1,4 @@
 function  obs = sortobs(obs)
-
 global glc gls
 A=zeros(obs.n,3); data1=repmat(gls.obsd,obs.n,1);
 

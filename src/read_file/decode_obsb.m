@@ -1,5 +1,7 @@
 function obs=decode_obsb(headinfo,obs,tobs,opt,fid)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc gls
 slips=zeros(glc.MAXSAT,glc.NFREQ); obs.data=repmat(gls.obsd,100000,1);
 

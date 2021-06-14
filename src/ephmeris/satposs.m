@@ -15,6 +15,8 @@ function sv=satposs(obs,nav,ephopt)
 %  transmission time
 %5.only surport broadcast/precise ephemeris,not RTCM-SSR
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc gls
 STD_BRDCCLK =30.0; time0=obs(1).time;
 nobs=size(obs,1); % number of observation

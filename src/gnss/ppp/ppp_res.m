@@ -1,5 +1,7 @@
 function [v,H,R,azel,exc,stat,rtk]=ppp_res(post,x,rtk,obs,nav,sv,dr,exc)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 stat=1; opt=rtk.opt; MAXSAT=glc.MAXSAT; VAR_GLO_IFB=0.6^2;%#ok
 nobs=size(obs,1); nf=rtk.NF;

@@ -1,5 +1,7 @@
 function [satpos,satclk,vare,varc,stat]=pephpos(time,sat,nav)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 stat=1; norder=10; %polynomial fitting order
 tdiff=zeros(norder+1,1); p=zeros(3,norder+1);

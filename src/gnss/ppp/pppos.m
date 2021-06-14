@@ -8,9 +8,7 @@ function [rtk,stat]=pppos(rtk,obs,nav)
 %output: rtk - rtk control struct
 %        stat - state (0:error 1:ok)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2020-2025, by Kai Chen, All rights reserved.
-%28/9/2020
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 nobs=size(obs,1); MAXITER=8; iter=1; 
 exc=zeros(nobs,1); dr=zeros(3,1);

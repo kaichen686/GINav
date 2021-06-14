@@ -1,5 +1,7 @@
 function dants=antmodel_s(pcvs,nadir)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc;
 dants=zeros(3,1); R2D=glc.R2D; NFREQ=glc.NFREQ;
 sat=pcvs.sat; [sys,~]=satsys(sat);

@@ -8,9 +8,6 @@ function [rtk,stat]=pppins(rtk,obs,nav)
 %output: rtk  - rtk control struct
 %        stat0- state
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2020-2025, by Kai Chen, All rights reserved.
-%8/12/2020
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 nobs=size(obs,1); MAXITER=8; iter=1; 
 exc=zeros(nobs,1); dr=zeros(3,1);
@@ -72,15 +69,11 @@ if stat==1
     rtk.gi_time=obs(1).time;
     rtk.ngnsslock=rtk.ngnsslock+1;
     
-    % PPP ambiguity resolution (Not supported for the time being)
-    
     % update INS parameters
     rtk=pppins_feedback(rtk,x_fb);
     
     % update solution
     rtk=update_stat_pppins(rtk,obs,glc.SOLQ_PPP);
-    
-    % hold fixed ambiguity (Not supported for the time being)
     
 end
 

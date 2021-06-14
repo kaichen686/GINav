@@ -3,7 +3,8 @@ function rtk = detslip_gf_L1L2(rtk,obsr,obsb,nav)
 % detect cycle slip using the geometry-free liner combination
 % the detection threshold can be configured in option
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 sat=obsr.sat;
 
 g1=gfobs_L1L2(obsr,obsb,nav.lam(sat,:));

@@ -1,5 +1,7 @@
 function rtk=udamb_ppp(rtk,obs,nav)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc 
 clk_jump=0; dantr=zeros(3,1);dants=zeros(3,1);phw=0; 
 nobs=size(obs,1); MAXSAT=glc.MAXSAT; VAR_BIAS=60^2;

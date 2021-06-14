@@ -1,5 +1,7 @@
 function rtk = detslip_gf_L1L5(rtk,obsr,obsb,nav)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 sat=obsr.sat;
 
 g1=gfobs_L1L5(obsr,obsb,nav.lam(sat,:));

@@ -1,5 +1,7 @@
 function [data,fid,stat]=decode_data(fid,ver,data,mask,index)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 stat=1;
 val(1:glc.MAXOBSTYPE)=0; lli(1:glc.MAXOBSTYPE)=0;

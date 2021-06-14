@@ -1,5 +1,7 @@
 function [headinfo,nav,obs,tobs,fid]=decode_obsh(headinfo,nav,obs,fid)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc gls
 tobs(1:glc.MAXOBSTYPE,1:3,glc.NSYS)=' '; del=zeros(3,1);
 sta=gls.sta;

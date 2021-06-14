@@ -8,9 +8,7 @@ function [rtk,stat0]=sppos(rtk,obs,navs)
 %output: rtk - rtk control struct
 %        stat0 - state (0:error 1:ok)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2020-2025, by Kai Chen, All rights reserved.
-%28/8/2020
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 opt=rtk.opt; nobs=size(obs,1);
 

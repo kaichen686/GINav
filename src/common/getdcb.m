@@ -1,5 +1,7 @@
 function [dcb,use_dcb_flag]=getdcb(nav,obs,opt)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 use_dcb_flag=1;
 dcb=zeros(glc.NFREQ,1); cbias=nav.cbias;
@@ -187,7 +189,7 @@ elseif sys==glc.SYS_BDS
                    elseif bd3frq(i)==3
                        dcb(i)=-alpha*DCB_b1b3;
                    elseif bd3frq(i)==4 %B1C
-                       beta_13=-glc.FREQ_BDS_B1C/(glc.FREQ_BDS_B1^2-glc.FREQ_BDS_B3^2); %有问题
+                       beta_13=-glc.FREQ_BDS_B1C/(glc.FREQ_BDS_B1^2-glc.FREQ_BDS_B3^2); %有问�?
                        DCB_b1b2=0;
                        if obs.code(i)==glc.CODE_L1X
                            DCB_b1b2=cbias(sat,glc.BD3_C1XC6I);
