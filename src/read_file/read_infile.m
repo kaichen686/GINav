@@ -3,6 +3,8 @@ function [obsr,obsb,nav,imu]=read_infile(opt,file)
 %read input file,include rover obs file, base obs file, eph file, sp3 file,
 %clk file,atx file, DCB file,BSX file, erp file, blq file£¬ imu file
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc gls
 obsr=gls.obs; obsb=gls.obs; nav=gls.nav; imu=gls.imu;
 

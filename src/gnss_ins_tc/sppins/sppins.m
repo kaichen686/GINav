@@ -8,6 +8,8 @@ function [rtk,stat]=sppins(rtk,obs,navs)
 %output: rtk  - rtk control struct
 %        stat0- state
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 stat=1; opt=rtk.opt; nobs=size(obs,1); niter=1; 
 

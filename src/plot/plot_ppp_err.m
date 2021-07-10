@@ -1,5 +1,7 @@
 function plot_ppp_err(solution,stationname,snxfilename)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 pos_ref0=readsnx(stationname,snxfilename);
 if norm(pos_ref0)==0
     fprintf('Warning:have no ground truth for %s station!\n',stationname);

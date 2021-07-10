@@ -8,6 +8,8 @@ function [rtk,stat]=pppins(rtk,obs,nav)
 %output: rtk  - rtk control struct
 %        stat0- state
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 nobs=size(obs,1); MAXITER=8; iter=1; 
 exc=zeros(nobs,1); dr=zeros(3,1);

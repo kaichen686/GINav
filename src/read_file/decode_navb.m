@@ -1,7 +1,4 @@
 function [nav,stat]=decode_navb(nav,fid,opt,headinfo)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc gls
 stat=1; NMAX=10000;
 nav.eph=repmat(gls.eph,NMAX,1); nav.geph=repmat(gls.geph,NMAX,1);

@@ -1,7 +1,5 @@
 function nav=readclk(nav,opt,fname)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc gls
 NMAX=10000; nav.pclk=repmat(gls.pclk,NMAX,1);
 
@@ -54,20 +52,12 @@ while ~feof(fid)
     if nav.nc<=0
         nav.nc=nav.nc+1;
         nav.pclk(nav.nc).time=time;
-%         for i=1:glc.MAXSAT
-%             nav.pclk(nav.nc).clk(i,1)=0;
-%             nav.pclk(nav.nc).std(i,1)=0;
-%         end
     elseif abs(timediff(time,nav.pclk(nav.nc).time))>1e-9
         if nav.nc+1>size(nav.pclk,1)
             nav.pclk(nav.nc+1:nav.nc+NMAX)=repmat(gls.pclk,NMAX,1);
         end
         nav.nc=nav.nc+1;
         nav.pclk(nav.nc).time=time;
-%         for i=1:glc.MAXSAT
-%             nav.pclk(nav.nc).clk(i,1)=0;
-%             nav.pclk(nav.nc).std(i,1)=0;
-%         end
     end
     
     nav.pclk(nav.nc).clk(sat,1)=clk;

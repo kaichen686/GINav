@@ -1,5 +1,7 @@
 function [ins,stat]=lc_filter(v,H,R,x_pre,P_pre,ins)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 nx=size(x_pre,1); stat=1;
 
 Q=H*P_pre*H'+R;

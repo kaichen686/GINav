@@ -1,5 +1,7 @@
 function [fullname,ftime]=findobsrfile(filepath,sitename)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global gls
 fullname='';
 ftime.ts=gls.gtime; ftime.te=gls.gtime; ftime.week=0; ftime.sow=0;

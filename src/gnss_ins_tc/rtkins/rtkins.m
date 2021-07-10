@@ -13,6 +13,8 @@ function [rtk,stat0]=rtkins(rtk,obsr,obsb,navs)
 %PPD/INS TC based on double-differenced pseudorange
 %PPK/INS TC based on double-differenced carrier phase and pseudorange
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 opt=rtk.opt;
 nf=rtk.NF; dt=timediff(obsr(1).time,obsb(1).time);
