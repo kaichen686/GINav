@@ -15,10 +15,7 @@ The main features of the software are: <br>
 ## Requirements <br>
 GINav was developed and tested in MATLAB version 2016a. For this reason, MATLAB version 2016a or newer is required for running GINav. Furthermore, GINav uses LAMBDA v3.0 toolbox to resolve ambiguity. If you use PPK, PPS or PPK/INS mode to process data, please download and install the lambda-3.0.zip file from http://gnss.curtin.edu.au/research/lambda.cfm. <br>
 ## Installation <br>
-The installation steps of GINav are as follows: <br>
-(1).Unzip GINav.zip to the GINav folder <br>
-(2).Unzip lambda-3.0.zip and place the lambda-3.0 folder into the `GINav\3rd` folder <br>
-(3).Open the MATLAB application and set the current folder to the unzipped GINav folder <br>
+Please refer to the GINav User Manual. <br>
 ## Quick Start <br>
 Please refer to the GINav User Manual. <br>
 ## Configuration file <br>
