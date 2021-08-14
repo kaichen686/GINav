@@ -1,7 +1,5 @@
 function [diono,vari,stat]=model_iono(time,pos,azel,rtk,x,nav,sat)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 stat=0; ERR_BRDCI=0.5; 
 

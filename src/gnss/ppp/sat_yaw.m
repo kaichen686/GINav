@@ -1,7 +1,5 @@
 function [exs,eys]=sat_yaw(time,sat,type,opt,rs,vs)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 erpv=zeros(5,1); exs=zeros(1,3); eys=zeros(1,3);
 

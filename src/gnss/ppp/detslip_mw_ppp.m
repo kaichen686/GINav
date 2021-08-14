@@ -1,7 +1,5 @@
 function rtk=detslip_mw_ppp(rtk,obs,nav)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 THRES_MW_JUMP=10;
 nobs=size(obs,1);
 

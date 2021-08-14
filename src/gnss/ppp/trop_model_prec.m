@@ -1,7 +1,5 @@
 function [dtdx,dtrp,vart]=trop_model_prec(time,pos,azel,x)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 zhd=tropmodel(pi/2,pos,0); %zenith hydrostatic delay
 
 [mh,mw]=tropmapf(time,pos,azel); %hydrostatic and wet projection coefficient

@@ -1,6 +1,6 @@
 function [dcb,use_dcb_flag]=getdcb(nav,obs,opt)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
+%Copyright(c) 2020-2025, by Kai Chen, All rights reserved.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 use_dcb_flag=1;

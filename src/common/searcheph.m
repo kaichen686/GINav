@@ -2,8 +2,7 @@ function [eph,stat]=searcheph(time,sat,iode,nav)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %search the corresponding navigation meassage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc;
 eph_sel=[0,0,1,0,0];%ephemeris selections  /GPS,GLO,GAL,BDS,QZS
 stat=1; sel=0; j=-1;

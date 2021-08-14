@@ -1,7 +1,5 @@
 function var=varerr_rel(sat,sys,el,bl,dt,f,rtk) %#ok
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 opt=rtk.opt;
 c=opt.err(4)*bl/1e4; d=glc.CLIGHT*opt.sclkstab*dt;fact=1;

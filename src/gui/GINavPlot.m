@@ -23,7 +23,9 @@ function varargout = GINavPlot(varargin)
 % Edit the above text to modify the response to help GINavPlot
 
 % Last Modified by GUIDE v2.5 23-Dec-2020 21:34:33
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...

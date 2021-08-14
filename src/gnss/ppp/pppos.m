@@ -10,7 +10,7 @@ function [rtk,stat]=pppos(rtk,obs,nav)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 global glc
-nobs=size(obs,1); MAXITER=8; iter=1; 
+nobs=size(obs,1); MAXITER=8; iter=1; stat=0;
 exc=zeros(nobs,1); dr=zeros(3,1);
 
 % initialize rtk.sat.fix

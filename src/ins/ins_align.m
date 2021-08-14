@@ -1,5 +1,7 @@
 function [rtk,ins_align_flag]=ins_align(rtk,obsr_,obsb_,nav)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 ins_align_flag=0;
 

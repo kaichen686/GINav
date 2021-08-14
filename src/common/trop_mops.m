@@ -1,7 +1,5 @@
 function [trop_delay,var]=trop_mops(time,pos,azel)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 k1=77.604;k2=382000;rd=287.054;gm=9.784;g=9.80665;
 persistent pos_ zh zw
 sinel=sin(azel(2)); h=pos(3);

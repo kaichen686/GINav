@@ -1,5 +1,7 @@
 function [vn,ins_align_flag]=tdcp2vel(rtk,nav,cur_obs,old_obs)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 vn=zeros(1,3); ins_align_flag=0;
 dt=timediff(cur_obs(1).time,old_obs(1).time);

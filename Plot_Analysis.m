@@ -20,6 +20,7 @@
 clc
 clear all %#ok
 close all
+addpath(genpath(pwd))
 global_variable;
 
 GINavPlot;

@@ -1,7 +1,5 @@
 function [PC,Vmea]=prange(obs,nav,opt,azel,iter) %#ok
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 lam=nav.lam(obs.sat,:);
 PC=0;Vmea=0;

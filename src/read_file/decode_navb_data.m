@@ -1,7 +1,5 @@
 function [eph,geph,type,fid,stat]=decode_navb_data(opt,ver,sys,fid)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc gls
 eph=gls.eph; geph=gls.geph; type=0; stat=1;
 data=zeros(1,64); buff(1:glc.MAXRNXLEN)=' ';

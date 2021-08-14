@@ -1,7 +1,5 @@
 function pos=readsnx(sta_name,fname)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 k=0; pos=zeros(1,3);
 fid=fopen(fname);
 while ~feof(fid)

@@ -1,7 +1,5 @@
 function rtk=holdamb(rtk,xa)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 nf=rtk.NF; nb=rtk.NB; nv=0; VAR_HOLDAMB=0.001;
 v=zeros(nb,1); H=zeros(nb,rtk.nx);

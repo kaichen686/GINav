@@ -1,7 +1,5 @@
 function imu=readimu(opt,fname)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc gls
 idx=strfind(fname,glc.sep); fname0=fname(idx(end)+1:end);
 fprintf('Info:reading imu file %s...',fname0);

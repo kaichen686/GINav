@@ -1,7 +1,5 @@
 function [phw,stat]=model_phw(time,sat,type,opt,rs,rr,vs,phw0)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 stat=1; ds=zeros(1,3); dr=zeros(1,3);
 if opt==0,phw=phw0;stat=0;return;end
 

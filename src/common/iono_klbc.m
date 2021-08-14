@@ -1,8 +1,4 @@
-function ion = iono_klbc( time,pos,azel,ionpar)%time,pos,azel
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%the ionospheric delay was calculated using Klobuchar model
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+function ion = iono_klbc(time,pos,azel,ionpar)
 
 global glc;
 ion_default=[0.1118E-07,-0.7451E-08,-0.5961E-07, 0.1192E-06,...

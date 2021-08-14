@@ -4,8 +4,6 @@ function nav=readdcb_mgex(nav,opt,obsr,fname)
 %if CODE_DCB can be used for GPS and GLONASS,don't use CAS_DCB for GPS and
 %GLONASS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 type=0; time=str2time(opt.ts); DCBPAIR=glc.DCBPAIR;
 

@@ -144,15 +144,6 @@ elseif opt.sateph==glc.EPHOPT_PREC
 end
 
 %% ionospheric
-if opt.ionoopt==glc.IONOOPT_OFF
-    
-elseif opt.ionoopt==glc.IONOOPT_BRDC
-    
-elseif opt.ionoopt==glc.IONOOPT_IFLC
-    
-elseif opt.ionoopt==glc.IONOOPT_EST
-    
-end
 ionoopt=char(ionoopts{opt.ionoopt+1});
 str=[str,sprintf('%s ionos opt : %s\n','%',ionoopt)];
 

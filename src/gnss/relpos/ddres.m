@@ -1,7 +1,5 @@
 function [rtk,v,H,R,nv,vflag]=ddres(rtk,nav,dt,x,P,zdr,zdb,ind) %#ok
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 lam_carr0=glc.CLIGHT/glc.FREQ_GPS_L1;
 ns=ind.ns;sat=ind.sat;ir=ind.ir;ib=ind.ib;

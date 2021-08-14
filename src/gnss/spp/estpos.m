@@ -2,8 +2,6 @@ function [rtk,sat_,stat]=estpos(rtk,obs,nav,sv,opt)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %estimate reciever position and clock bias
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global  glc
 NX=3+glc.NSYS; MAXITER=10; iter=1;
 time=obs(1).time; xr0=[rtk.sol.pos';zeros(glc.NSYS,1)];

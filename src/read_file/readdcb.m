@@ -3,8 +3,6 @@ function nav=readdcb(nav,obs,fname)
 %only read dcb for GPS or GLONASS(CODE procuct)
 %convert CODE product to consistent with CAS product
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Copyright (C) 2020-2025, by Kai Chen, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 type=0; DCBPAIR=glc.DCBPAIR;
 

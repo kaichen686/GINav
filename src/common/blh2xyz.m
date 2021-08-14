@@ -1,6 +1,7 @@
 function [xyz, Cen] = blh2xyz(blh)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Convert geodetic coordinate blh to cartesian coordinate xyz
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 global glc
 
 B = blh(1); L = blh(2); H = blh(3);

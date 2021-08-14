@@ -1,6 +1,7 @@
 function [blh, Cne] = xyz2blh(xyz)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Convert cartesian coordinate xyz to geodetic coordinate blh
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 pos=ecef2pos(xyz); blh=pos;
 B=pos(1); L=pos(2);
 sinB = sin(B); cosB = cos(B);

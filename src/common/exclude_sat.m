@@ -1,7 +1,5 @@
 function [obs,nobs]=exclude_sat(obs0,rtk)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global gls
 nobs0=size(obs0,1); nobs=0; obs=repmat(gls.obs_tmp,nobs0,1);
 ts=rtk.opt.ts; te=rtk.opt.te;

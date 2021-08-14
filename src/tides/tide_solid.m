@@ -1,7 +1,5 @@
 function dr=tide_solid(pos,Cne,rsun,rmoon,gmst,opt)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 GMS=1.327124E+20; %sun gravitational constant
 GMM=4.902801E+12; %moon gravitational constant
 eu(1)=Cne(3);eu(2)=Cne(6);eu(3)=Cne(9);

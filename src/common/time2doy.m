@@ -1,7 +1,5 @@
 function doy=time2doy(time)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 ep=time2epoch(time);
 ep(2)=1;ep(3)=1;ep(4)=0;ep(5)=0;ep(6)=0;
 doy=timediff(time,epoch2time(ep))/86400+1;

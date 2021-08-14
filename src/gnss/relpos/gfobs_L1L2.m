@@ -1,7 +1,5 @@
 function gf=gfobs_L1L2(obsr,obsb,lam)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 pi=sdobs(obsr,obsb,1)*lam(1);
 pj=sdobs(obsr,obsb,2)*lam(2);
 

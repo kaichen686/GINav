@@ -1,5 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%global constant/global struct for GINav
+%Global constant/Global struct for GINav
+%
+%Copyright(c) 2020-2025, by Kai Chen, All rights reserved.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear 
 clear global glc gls
@@ -707,7 +709,7 @@ default_opt.ts=glc.OPT_TS; % the start time(set default,using glc.OPT_TS)
 default_opt.te=glc.OPT_TE; % the end time(set default,using glc.OPT_TE)
 default_opt.ti=0;          % the time interval
 
-default_opt.mode      = 5;         % positioning mode(1:SPP 2:PPD(post-processing differenced) 3:PPK 4:relative static 5:PPP_KINE 6:PPP_STATIC)
+default_opt.mode      = 1;         % positioning mode(1:SPP 2:PPD(post-processing differenced) 3:PPK 4:relative static 5:PPP_KINE 6:PPP_STATIC)
 default_opt.navsys    = 'G';       % navigation system(G:GPS R:GLONASS E:GALILEO C:BDS J:QZSS)
 default_opt.nf        = 1;         % number of frequencies (1:L1,2:L1+L2,3:L1+L2+L3)
 default_opt.elmin     = 10*glc.D2R; % elevation mask angle(rad)

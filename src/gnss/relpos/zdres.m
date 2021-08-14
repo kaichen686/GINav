@@ -1,7 +1,5 @@
 function [zd,stat]=zdres(flag,obs,sv,nav,rr,opt,rtk)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Copyright(c) 2016 by T.TAKASU, All rights reserved.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 nobs=size(obs,1); nf=rtk.NF;
 zazel=[0 pi/2]; stat=1;
