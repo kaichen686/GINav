@@ -1,5 +1,5 @@
 # GINav
-NOTE: The program is still under development, and some bugs may exist in GINav. Comments and suggestions from users are welcome, please send them to the author (kaichen@cumt.edu.cn). <br>
+NOTE: The program is still under development, and some bugs may exist in GINav. <br>
 
 ## Introduction <br>
 GINav is an open-source software, which focuses on the data processing and analysis of GNSS/INS integrated Navigation system, and can also process multi-constellation and multi-frequency GNSS data. GINav is suitable for in-vehicle situations and is aimed at providing a useful tool for carrying out GNSS/INS-related research. It is a convenient platform for testing new algorithms and experimental functionalities. GINav is developed in MATLAB environment. It provides a user-friendly graphical user interface (GUI) to facilitate users to learn how to use it quickly. A visualization tool, GINavPlot, is provided for solution presentation and error analysis.  <br>
@@ -31,11 +31,6 @@ GINav provides different dataset to evaluate its performance, you can use the co
 Please refer to the GINav User Manual. <br>
 ## Acknowledgement <br>
 First of all, I pay tribute to Mr. Tomoji Takasu, the author of RTKLIB software. I admire him for his selfless open-source spirit and elegant programming. Many functions of GINav are derived from the RTKLIB code. If you use the functions that derived from the RTKLIB, please comply with the BSD2 license of  RTKLIB, which can be found in https://github.com/tomojitakasu/RTKLIB. The software is also referring to the PSINS software of Gongmin Yan from Northwestern Polytechnic University, the PPPLib software of Chao Chen from China University of Mining and Technology, the GAMP software of Feng Zhou from Shangdong University of Science and Technology. GINav uses the LAMBDA v3.0 toolbox from Curtin University and some open-source datasets. Thanks to the authors of above software, [Curtin GNSS Research Centre](http://gnss.curtin.edu.au/), and sharer of [UrbanNavDataset](https://github.com/weisongwen/UrbanNavDataset). Many thanks are due to [Steve Hillia](https://www.researchgate.net/profile/Steve-Hilla) from Notional Oceanic and Atmospheric Administration for his detailed suggestions. <br>
-## Contact author <br>
-Any suggestions, corrections, and comments about GINav are sincerely welcomed and should be sent to: <br>
-Author: Kai Chen <br>
-E-mail: kaichen@cumt.edu.cn <br>
-Address: School of Environment and Geo-informatics, China University of Mining and Technology <br>
 ## References <br>
 [1] Chen K, Chang G and Chen C. GINav: a MATLAB-based software for the data processing and analysis of a GNSS/INS integrated navigation system. GPS Solut 25, 108 (2021). https://doi.org/10.1007/s10291-021-01144-9 <br>
 [2] Chen C and Chang G 2021 PPPLib: An open-source software for precise point positioning using GPS, BeiDou, Galileo, GLONASS, and QZSS with multi-frequency observations GPS Solutions <br>
