@@ -33,6 +33,8 @@ Please refer to the GINav User Manual. <br>
 First of all, I pay tribute to Mr. Tomoji Takasu, the author of RTKLIB software. I admire him for his selfless open-source spirit and elegant programming. Many functions of GINav are derived from the RTKLIB code. If you use the functions that derived from the RTKLIB, please comply with the BSD2 license of  RTKLIB, which can be found in https://github.com/tomojitakasu/RTKLIB. The software is also referring to the PSINS software of Gongmin Yan from Northwestern Polytechnic University, the PPPLib software of Chao Chen from China University of Mining and Technology, the GAMP software of Feng Zhou from Shangdong University of Science and Technology. GINav uses the LAMBDA v3.0 toolbox from Curtin University and some open-source datasets. Thanks to the authors of above software, [Curtin GNSS Research Centre](http://gnss.curtin.edu.au/), and sharer of [UrbanNavDataset](https://github.com/weisongwen/UrbanNavDataset). Many thanks are due to [Steve Hillia](https://www.researchgate.net/profile/Steve-Hilla) from Notional Oceanic and Atmospheric Administration for his detailed suggestions. <br>
 ## References <br>
 [1] Chen K, Chang G and Chen C. GINav: a MATLAB-based software for the data processing and analysis of a GNSS/INS integrated navigation system. GPS Solut 25, 108 (2021). https://doi.org/10.1007/s10291-021-01144-9 <br>
-[2] Chen C and Chang G 2021 PPPLib: An open-source software for precise point positioning using GPS, BeiDou, Galileo, GLONASS, and QZSS with multi-frequency observations GPS Solutions <br>
-[3] Verhagen S, Li B, Teunissen PJG (2012) LAMBDA - Matlab implementation, version 3.0. Delft University of Technology and Curtin University <br>
+[2] GINav User Manual <br>
+[3] RTKLIB ver. 2.4.2 Manual <br>
+[4] 严恭敏, 翁浚. 捷联惯导算法与组合导航原理讲义. 西北工业大学出版社，2019.
+[5] Verhagen S, Li B, Teunissen PJG (2012) LAMBDA - Matlab implementation, version 3.0. Delft University of Technology and Curtin University <br>
 
