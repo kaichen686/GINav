@@ -35,6 +35,6 @@ First of all, I pay tribute to Mr. Tomoji Takasu, the author of RTKLIB software.
 [1] Chen K, Chang G and Chen C. GINav: a MATLAB-based software for the data processing and analysis of a GNSS/INS integrated navigation system. GPS Solut 25, 108 (2021). https://doi.org/10.1007/s10291-021-01144-9 <br>
 [2] GINav User Manual <br>
 [3] RTKLIB ver. 2.4.2 Manual <br>
-[4] 严恭敏, 翁浚. 捷联惯导算法与组合导航原理讲义. 西北工业大学出版社，2019.
+[4] 严恭敏, 翁浚. 捷联惯导算法与组合导航原理讲义. 西北工业大学出版社，2019. <br>
 [5] Verhagen S, Li B, Teunissen PJG (2012) LAMBDA - Matlab implementation, version 3.0. Delft University of Technology and Curtin University <br>
 
