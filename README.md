@@ -31,9 +31,9 @@ Please refer to the GINav User Manual. <br>
 ## Acknowledgement <br>
 First of all, I pay tribute to Mr. Tomoji Takasu, the author of RTKLIB software. I admire him for his selfless open-source spirit and elegant programming. Many functions of GINav are derived from the RTKLIB code. If you use the functions that derived from the RTKLIB, please comply with the BSD2 license of  RTKLIB, which can be found in https://github.com/tomojitakasu/RTKLIB. The software is also referring to the PSINS software of Gongmin Yan from Northwestern Polytechnic University, the PPPLib software of Chao Chen from China University of Mining and Technology, the GAMP software of Feng Zhou from Shangdong University of Science and Technology. GINav uses the LAMBDA v3.0 toolbox from Curtin University and some open-source datasets. Thanks to the authors of above software, [Curtin GNSS Research Centre](http://gnss.curtin.edu.au/), and sharer of [UrbanNavDataset](https://github.com/weisongwen/UrbanNavDataset). Many thanks are due to [Steve Hillia](https://www.researchgate.net/profile/Steve-Hilla) from Notional Oceanic and Atmospheric Administration for his detailed suggestions. <br>
 ## Contact author
-Author: Kai Chen
-E-mail: kaichen@cumt.edu.cn
-Address: School of Environment and Geo-informatics, China University of Mining and Technology
+Author: Kai Chen <br>
+E-mail: kaichen@cumt.edu.cn <br>
+Address: School of Environment and Geo-informatics, China University of Mining and Technology <br>
 ## References <br>
 [1] Chen K, Chang G and Chen C. GINav: a MATLAB-based software for the data processing and analysis of a GNSS/INS integrated navigation system. GPS Solut 25, 108 (2021). https://doi.org/10.1007/s10291-021-01144-9 <br>
 [2] GINav User Manual <br>
