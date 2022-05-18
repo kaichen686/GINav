@@ -4,7 +4,7 @@
 GINav is an open-source software, which focuses on the data processing and analysis of GNSS/INS integrated Navigation system, and can also process multi-constellation and multi-frequency GNSS data. GINav is suitable for in-vehicle situations and is aimed at providing a useful tool for carrying out GNSS/INS-related research. It is a convenient platform for testing new algorithms and experimental functionalities. GINav is developed in MATLAB environment. It provides a user-friendly graphical user interface (GUI) to facilitate users to learn how to use it quickly. A visualization tool, GINavPlot, is provided for solution presentation and error analysis.  <br>
 The main features of the software are: <br>
 * Support GNSS absolute positioning modes, include standard single positioning (SPP) and precise single positioning (PPP) <br>
-* Support GNSS relative positioning modes, include post-processing differenced, kinematic and static (PPD, PPK and PPS) <br>
+* Support GNSS relative positioning modes, include post-processed differenced, kinematic and static (PPD, PPK and PPS) <br>
 * Support multi-constellation and multi-frequency GNSS data processing <br>
 * Support GNSS/INS loosely coupled (LC) modes, include SPP/INS LC, PPD/INS LC, PPK/INS LC and PPP/INS LC <br>
 * Support GNSS/INS tightly coupled (TC) modes, include SPP/INS TC, PPD/INS TC, PPK/INS TC and PPP/INS TC <br>
