@@ -91,7 +91,7 @@ end
 % read imu file
 if ~strcmp(file.imu,'')
     imu=readimu(opt,file.imu);
-    if imu.n==0&&opt.ins.mode~=glc.GIMODE_NONE
+    if imu.n==0&&opt.ins.mode~=glc.GIMODE_OFF
         error('Number of imu data is zero!!!');
     end
 elseif strcmp(file.imu,'')&&(opt.ins.mode==glc.GIMODE_LC||opt.ins.mode==glc.GIMODE_TC)
